@@ -100,13 +100,14 @@ PURE Neg and film-dust are MIT-licensed; the OpenRevelare model host is GPL-3.0.
 - [下载模型 net_awb.onnx](https://gitee.com/Toshihiko-Lin/openrevelare-models/releases/download/deep-wb-v1/net_awb.onnx)
 - [下载独立许可声明 DeepWB-NOTICE.txt](https://gitee.com/Toshihiko-Lin/openrevelare-models/releases/download/deep-wb-v1/DeepWB-NOTICE.txt)
 - [发行版说明](https://gitee.com/Toshihiko-Lin/openrevelare-models/releases/tag/deep-wb-v1)
+- [GitHub 模型下载](https://github.com/Toshihiko-Lin/openrevelare-models/releases/download/deep-wb-v1/net_awb.onnx) · [GitHub 许可声明](https://github.com/Toshihiko-Lin/openrevelare-models/releases/download/deep-wb-v1/DeepWB-NOTICE.txt) · [GitHub 发行版说明](https://github.com/Toshihiko-Lin/openrevelare-models/releases/tag/deep-wb-v1)
 
 文件大小：17,480,341 字节（约 17.5 MB）。
 SHA-256：`50503B7F6CFB0663EBA0D0D61CBC68E8E93E56581DB3143B203BAB163F7C9F54`
 
 ### Deep-WB 安装
 
-首次点击 OpenRevelare「智能色偏修正」时，确认许可后按需下载。默认程序安装包不含模型权重，ONNX 推理运行库仍随程序提供。GitHub 下载失败时自动尝试本仓库。
+首次点击 OpenRevelare「智能色偏修正」时，确认许可后按需下载。默认程序安装包不含模型权重，ONNX 推理运行库仍随程序提供。GitHub 下载失败时自动尝试 Gitee 国内镜像。
 
 离线安装：将 net_awb.onnx 放入 Windows 的 `%LOCALAPPDATA%/OpenRevelare/models/`，Linux/macOS 的 `${XDG_DATA_HOME:-~/.local/share}/OpenRevelare/models/`，或可执行文件旁的 `models/`。`OPENREVELARE_DATA_DIR` 可覆盖用户数据目录。用户目录中的模型升级后保留，删除该文件即可卸载。
 
